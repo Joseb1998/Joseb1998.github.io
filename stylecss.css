@@ -1,0 +1,126 @@
+h1 {
+    
+    color:white; 
+     font-size: 2em;
+     
+     padding: 5px;
+     margin: 40px;
+    
+     opacity: 1;
+     transition: width 2s, height 4s;
+     
+ }
+ 
+ p {
+       color: white;
+ }
+ 
+ 
+ 
+ .ab{
+     color: black;
+     text-align: center;
+    position: relative;
+    top: 0px;
+    background-color: lightblue;
+    border-style: double;
+    
+    
+ 
+ }
+ img {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 50%;
+     opacity: .4;
+     width: 9%;
+     background-color: white;
+     border-radius: 50%;
+       
+ 
+    
+ }
+ 
+    .abc {
+        <span style="background-color: #FFFF00"></span>
+    }
+     
+     
+  
+ table{
+     color: black;
+   
+     padding-top: 1em;
+     background-color: white;
+     opacity: .8
+     ;
+     border-radius: 1%;
+     text-align: center;
+     width: 10%;
+     height: 20%;
+       
+       
+ }
+ 
+ table ,th, td{
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+ 
+ .c{
+     color: black;
+     padding-top: 5em;
+     background-color: lightblue;
+     opacity: 1
+     ;
+     margin: 9em;
+     padding: 1em;
+     text-align: center;
+     position: absolute;
+     border-style: solid;
+ }
+
+ 
+ 
+ .visit {
+     text-align: center;
+     
+     padding-top: -30em;
+     position: absolute;
+     top: 350px;
+     
+ }
+ .visit h1 {
+     color: black;
+ }
+ 
+ body {
+   background-color:white;  
+ }
+ 
+ video {
+    position: absolute;
+ right: 0;
+ bottom: 0;
+ z-index: -1;
+ 
+ }
+ 
+ 
+ 
+ @media (min-aspect-ratio: 16/9){
+     video{
+         width: 100%;
+         height: auto;
+ 
+     }
+ }
+ 
+ @media (max-aspect-ratio: 16/9){
+     video{
+         width: auto;
+         height: 100%;
+         
+     }
+ }
